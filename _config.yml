@@ -2,7 +2,7 @@
 title: Projet Michel
 description: >
   Il était une fois la 3D ...
-baseurl: "/projetmichel"
+baseurl: "/ProjetMichel"
 url: "https://trakjohnson.github.io"
 # Build Settings
 sass:
