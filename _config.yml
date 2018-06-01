@@ -1,0 +1,12 @@
+# Site Settings
+title: Projet Michel
+description: >
+  Il était une fois la 3D ...
+baseurl: "/"
+url: "http://trakjohnson.github.io/projetmichel"
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
