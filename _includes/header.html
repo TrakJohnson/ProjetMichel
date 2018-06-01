@@ -1,18 +1,8 @@
-<aside>
-  <div class="container">
-    <nav>
-      <ul>
-	<li><h2 class="top-title">{{ site.title }}</h2></li>
-	{% for page in site.pages %}
-	  {% if page.title %}
-	    <li>
-	      <a href="{{ page.url | prepend: site.url }}">{{ page.title }}</a>
-	    </li>
-	  {% endif %}
-	{% endfor %}
-      </ul>
-    </nav>
-  </div>
-</aside>
 
- 
+<div id="top-menu">
+  <h1 id="top-title">{{site.title}}</h2>
+</div>
+
+
+
+
