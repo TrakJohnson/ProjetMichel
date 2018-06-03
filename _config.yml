@@ -2,11 +2,16 @@
 title: Projet Michel
 description: >
   Il était une fois la 3D ...
-baseurl: "/ProjetMichel"
-url: "https://trakjohnson.github.io"
+baseurl: "ProjetMichel"
+url: "https://trakjohnson.github.io/"
 # Build Settings
 sass:
   sass_dir: _sass
 include: ['_pages']
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
 kramdown:
   input: GFM
