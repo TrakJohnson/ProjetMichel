@@ -1,5 +1,5 @@
-body {
-  margin: 0;
+body { 
+ margin: 0;
   color: $font-color;
   font-family: $font-style;
   font-size: 1.1em;
@@ -30,7 +30,6 @@ h1#top-title {
   display: inline;
   font-size: 36px;
   color: #fafafa;
-  text-decoration: underline;
   padding-left: 30px;
 }
 
@@ -61,6 +60,17 @@ h2 {
 
 /* Content */
 
+#problematique {
+  padding: 20px;
+  text-align: center;
+  margin: 30px 0px;
+  border: 2px solid black;
+  border-radius: 3px;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+}
+
 a,
 a:visited {
   color: $link-color;
@@ -79,20 +89,28 @@ main {
   margin: 0 auto;
 }
 
-.anaglyphe {
-  display: inline;
-  position: relative;
-  font: 200px Helvetica, Sans-Serif;
-  letter-spacing: -5px;
-  color: #ffaaaa; 
+.experience {
+  border: 5px solid #aaa;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px 0px;
+  font-family: serif;
+  background-color: white;
 }
 
-.anaglyphe:after {
-  content: "Hello";
-  position: absolute;
-  left: 10px;
-  top: 5px;
-  color: #aaffff;   
+.experience h1 {
+  font-size: 24px;
+  color: #444;
+}
+
+.experience h2 {
+  font-size: 20px;
+  color: #777;
+  font-decoration: underline
+}
+
+.experience img {
+  max-width: 100%;
 }
 
 .container {

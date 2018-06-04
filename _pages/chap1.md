@@ -1,7 +1,7 @@
 ---
-title: Introduction
-permalink: chap0.html
+title: L'Anaglyphe
+permalink: chap1.html
 layout: default
 ---
 
-<div class="title-box">Chapitre 0 - Introduction</div>
+<div class="title-box">Chapitre 1 - L'Anaglyphe</div>
