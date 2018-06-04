@@ -13,5 +13,4 @@ defaults:
       path: "assets/img"
     values:
       image: true
-kramdown:
-  input: GFM
+markdown: CommonMark

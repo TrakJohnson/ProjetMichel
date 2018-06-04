@@ -55,10 +55,29 @@ h2 {
 
 #page-selection a {
   color: #fafafa;
+  text-decoration: none;
   margin: 0px 20px;
 }
 
+#page-selection a:hover {
+  text-decoration: underline;
+}
+
 /* Content */
+
+table {
+  border-collapse: collapse;
+  margin: 0px auto;
+}
+
+table, th, td {
+  border: 2px solid #666;
+}
+
+th, td {
+  padding: 5px;
+}
+
 
 #problematique {
   padding: 20px;
@@ -71,46 +90,61 @@ h2 {
   font-style: italic;
 }
 
-a,
-a:visited {
+a, a:visited {
   color: $link-color;
   text-decoration: underline;
   font-weight: bold;
 }
+
 a:hover {
   color: $link-hover-color;
   text-decoration: underline;
 }
 
-
 main {
   padding: 0 15px;
   max-width: $content-width;
   margin: 0 auto;
+  text-align: justify;
 }
 
 .experience {
-  border: 5px solid #aaa;
+  border: 2px solid #aaa;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 2px;
   margin: 20px 0px;
-  font-family: serif;
-  background-color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  background: repeating-linear-gradient(
+    45deg,
+    #f8f8f8,
+    #f8f8f8 5px,
+    #fcfcfc 5px,
+    #fcfcfc 10px
+  );
 }
 
+
 .experience h1 {
-  font-size: 24px;
+  font-size: 20px;
   color: #444;
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .experience h2 {
-  font-size: 20px;
+  font-size: 18px;
   color: #777;
-  font-decoration: underline
+  font-decoration: underline;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .experience img {
-  max-width: 100%;
+  max-width: 90%;
+  display: block;
+  vertical-align: bottom;
+  margin: 30px auto;
+  border: 2px solid #aaa;
 }
 
 .container {
@@ -122,7 +156,11 @@ main {
   width: 100%;
   height: 40px;
   padding: 30px;
+  margin: 15px 0;
   font-weight: bold;
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 50%; /* <-- this is what you must define */
 }
 
 #toc a {
