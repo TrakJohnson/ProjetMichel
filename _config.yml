@@ -13,4 +13,5 @@ defaults:
       path: "assets/img"
     values:
       image: true
-markdown: CommonMark
+markdown: CommonMarkGhPages
+

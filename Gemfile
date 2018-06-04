@@ -31,5 +31,6 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 # markdown
 group :jekyll_plugins do
   gem 'jekyll-commonmark'
+  gem 'jekyll-commonmark-ghpages'
 end
 
