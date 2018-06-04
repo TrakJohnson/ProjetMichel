@@ -1,12 +1,14 @@
 <div id="title-wrapper">
-  <a href={{ "/" | append: site.baseurl | prepend: site.url }}><h1 id="top-title">{{site.title}}</h1></a>
+  <a href={{ site.baseurl | prepend: site.url }}>
+    <h1 id="top-title">{{site.title}}</h1>
+  </a>
 </div>
 <div id="top-menu">
   <div id="page-selection">
-x    <a href="chap0">Introduction</a>
-    <a href="chap1">L'anaglyphe</a>
-    <a href="chap2">La polarisation</a>
-    <a href="chap3">Conclusion</a>
+    <a href={{ "/chap0" | prepend: site.baseurl | prepend: site.url }}>Introduction</a>
+    <a href={{ "/chap1" | prepend: site.baseurl | prepend: site.url }}>L'anaglyphe</a>
+    <a href={{ "/chap2" | prepend: site.baseurl | prepend: site.url }}>La polarisation</a>
+    <a href={{ "/chap3" | prepend: site.baseurl | prepend: site.url }}>Conclusion</a>
   </div>
 </div>
 
