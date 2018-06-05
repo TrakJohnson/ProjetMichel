@@ -6,7 +6,7 @@ layout: default
 
 <div class="title-box">Chapitre 0 - Introduction</div>
 
-Un jour, Mr. Michel Moutry a la bonne idée de vouloir équiper son salon d'un home cinema 3D. Très débrouillard, il refuse de se plier au capitalisme et surtout de dépenser plusieurs milliers d'euros, et décide en conséquent de fabriquer sa propre télévision en 3D.
+Un jour, Mr. Michel Moutry a la bonne idée de vouloir équiper son salon d'un home cinema 3D. Très débrouillard, il refuse de se plier au capitalisme et surtout de dépenser plusieurs milliers d'euros, et décide en conséquent de fabriquer sa propre télévision 3D.
 
 Avant de se lancer dans quoi que ce soit, Michel veut comprendre les bases et s'intéresse donc à comment le cerveau fait pour transformer une - ou plutôt deux - images en un univers 3D. La base de la perception de la profondeur, et donc de la 3D, est notre **vision binoculaire**. Lorsque nous observons un objet, deux images sont projetées sur nos rétines, chacune un peu décalée par rapport à l'autre, comme l'expliquait Charles Wheatstones qui dit en 1838 *"le cerveau voit une image en 3D grâce à l'association de deux images projetées sur nos deux rétines."*
 
@@ -17,6 +17,8 @@ La fusion de ces deux images donne ce que les scientifiques appellent "**l’ima
 
 
 Il ne faut pas oublier que la vision en 3D naturelle est un attribut souvent considéré comme acquis, mais qui disparaît dès qu’un des deux yeux cesse de fonctionner pour diverses raisons - par exemple, tentez de faire une opération requièrant de la précision en profondeur, avec un oeil, et une simple tâche comme reboucher un stylo devient extrêmement compliquée.
+
+<a href="{{ '/chap1' | prepend: site.baseurl | prepend: site.url }}">Suite ...</a>
 
 
 

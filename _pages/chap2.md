@@ -85,9 +85,6 @@ Plusieurs tests sont effectués:
     - Orientées à 0° et 90°
   - Test sur un autre écran
   
-Les écrans utilisés sont:
-  * Ecrans 
-
 <h2>Résultats</h2>
 <! --- TODO rotate table --!>
 <table>
@@ -128,18 +125,26 @@ Tout d'abord, après un peu d'investigation, il découvre que ses lunettes ne so
 
 <div class="caption">La lumière polarisée linéairement, ici représentée comme l'onde rouge, peut-être décomposée en l'onde bleue et l'onde verte</div>
 
-La lumière polarisée circulairement, c'est simplement un **déphasage** de une de ces ondes, c'est-à-dire qu'on "décale" un des composants.
+La lumière polarisée circulairement, est simplement le résultat d' un **déphasage** d'une de ces deux ondes, c'est-à-dire qu'on "décale" un des composants.
 
 ![Déphasage](assets/img/polarisation-circulaire.png)
 
-<div class="caption">Par exemple, ici, on remarque que les ondes bleues et vertes ne sont plus synchronisées (bas) mais sont maintenant décalées (haut) ce qui donne lieu à ce qu'on appelle la polarisation circulaire</div>
+<div class="caption">Par exemple, ici, on remarque que les ondes bleues et vertes ne sont plus synchronisées en haut alors qu'elles le sont en bas: c'est ici la différence entre la lumière polarisée linéairement et circulairement</div>
 
-Et le plus intéressant, c'est qu'on fonction de ce déphasage, on peut obtenir de la lumière polarisée circulairement dans le sens des aiguilles d'une montre, et dans le sens inverse. Et on peut filtrer l'une des deux: c'est ainsi que marchent les lunettes polarisées circulairement.
+Et le plus intéressant, c'est qu'en fonction de ce déphasage, on peut obtenir de la lumière polarisée circulairement dans le sens des aiguilles d'une montre, ou dans le sens inverse. Et on peut filtrer l'une des deux: c'est ainsi que marchent les lunettes polarisées circulairement.
 
 ![Lunettes polarisées circulairement](assets/img/polarisation-circulaire-lunettes.png)
 
-<div class="caption"></div>
+<div class="caption">Ici, on observe que la lumière polarisée circulairement dans un sens passe dans l'oeil gauche, mais pas dans l'oeil droit, et vice-versa</div>
 
+Ainsi, c'est toujours sur le même concept que reposent ces lunettes 3D: la séparation d'une image en deux. Cependant, c'est la technique de séparation qui diffère. Et l'avantage qu'offre la polarisation circulaire, c'est que contrairement à la polarisation linéaire, lorsqu'on tourne la tête au cinéma, l'image reste nette - si l'on fait cela avec des lunettes polarisées linéairement, les images se mélangeront !
+
+Cela est bien intéressant, se dit Michel, mais ça n'explique pas mon expérience. Il s'intéresse donc à la composition d'un polariseur circulaire.
+
+
+Comme on peut le voir dans l'image précédente, un polariseur circulaire contient 2 composants: cela vérifie l'hypothèse émise lors de l'expérience #2. Le premier composant est un simple polariseur circulaire, est le deuxième est une lame un-quart, ou lame à quart d'onde. La fonction de cette lame est justement de déphaser la lumière polarisée. 
+
+<a href="{{ '/chap3' | prepend: site.baseurl | prepend: site.url }}">Suite ...</a>
 
 
 
