@@ -6,22 +6,29 @@ layout: default
 
 <div class="title-box">Chapitre 2 - La Polarisation</div>
 
-  Cependant, Michel n’est pas satisfait - les films en anaglyphe sont peu nombreux et voir tout avec un mélange de bleu et de rouge n’est franchement pas attrayant. Il va donc voir comment la 3D est produite dans un cinéma. Contre toute attente, ses lunettes n’ont aucune couleur - elles ne sont pas anaglyphes, mais polarisées.
+Michel n’est pas satisfait - les films en anaglyphe sont peu nombreux et voir tout avec un mélange de bleu et de rouge n’est franchement pas attrayant. Il va donc voir comment la 3D est produite dans un cinéma. Contre toute attente, ses lunettes n’ont aucune couleur - elles ne sont pas anaglyphes, mais polarisées.
   
   ![RealD](assets/img/reald.jpeg)
   
 <div class="caption">Les lunettes que Michel a habilement rapporté chez lui</div>
   
-  Avant de se lancer dans des expériences, Michel se lance dans une petite recherche internet pour s’instruire sur la polarisation.
+Avant de se lancer dans des expériences, Michel se lance dans une petite recherche internet pour s’instruire sur la polarisation.
   
-  Il existe plusieurs types de polarisation: la polarisation linéaire et la polarisation elliptique (la polarisation circulaire étant un cas particulier de la polarisation elliptique). La lumière **non-polarisée** est composée de plein d'ondes electromagnétiques, ayant toutes des orientations différentes. La lumière **polarisée linéairement** est elle composée d'une seule de ces ondes électromagnétiques.
+Il existe plusieurs types de polarisation: la polarisation linéaire et la polarisation elliptique (la polarisation circulaire étant un cas particulier de la polarisation elliptique). La lumière **non-polarisée** est composée de plein d'ondes electromagnétiques, ayant toutes des orientations différentes. La lumière **polarisée linéairement** est elle composée d'une seule de ces ondes électromagnétiques, et elle a donc une seule orientation.
   
 ![Polarisation linéaire](assets/img/polarisation-lineaire.png)
   
 <div class="caption">De la lumière non-polarisée (gauche) passe à travers un polariseur linéaire et en sort polarisée linéairement (droite)</div>
 
 
-Les lunettes de cinéma **polarisées linéairement** fonctionnent comme les lunettes anaglyphes, sauf qu'au lieu de filtrer certaine longueurs d'onde, elles filtres certaines polarisations. Par exemple, l'oeil gauche va accepter seulement la lumière polarisée linéairement à 0°, et l'oeil gauche la lumière polarisée linéairement à 90°. Ainsi, au lieu de projeter une image rouge sur une image bleue, on projette une image polarisée d'une façon sur une image polarisée d'une autre façon. Et tout comme l'anaglyphe, les lunettes ont pour fonction de tromper nos yeux en leur offrant chacun une image légèrement différente, pour que le cerveau l'assimile comme une scène en 3D.
+Les lunettes de cinéma **polarisées linéairement** fonctionnent comme les lunettes anaglyphes, sauf qu'au lieu de filtrer certaine longueurs d'onde, elles filtrent certaines polarisations. Par exemple, l'oeil gauche va accepter seulement la lumière 
+polarisée linéairement à 0°, et l'oeil droit la lumière polarisée linéairement à 90°.
+
+Ainsi, au lieu de projeter une image rouge sur une image bleue, on projette une image polarisée d'une façon sur une image polarisée d'une autre façon. Et tout comme l'anaglyphe, les lunettes ont pour fonction de tromper nos yeux en leur offrant chacun une image légèrement différente, pour que le cerveau l'assimile comme une scène en 3D.
+
+![Polarisation Linéaire Cinéma](assets/img/polarisation-linéaire.jpeg)
+
+<div class="caption">Fonctionnement d'un cinéma utilisant des lunettes polarisées linéairement</div>
 
 Michel se dit qu'il est maintenant le temps de vérifier cela !
 
@@ -67,11 +74,11 @@ Michel se dit qu'il est maintenant le temps de vérifier cela !
   
   - On observe tout d'abord que le sens des lunettes influe sur le résultat
     - On peut donc en déduire que le matériau utilisé ne se comporte pas comme un filtre normal, ou alors que celui-ci est en fait composé de deux couches de matériaux différents
-  - On observe ensuite que dans un sens, les lunettes se comportent comme si elles étaient un polariseur linéaire
-  - Cependant elle n'ont pas cette propriété dans l'autre sens ... ?! 
+  - On observe ensuite que dans un sens, les lunettes se comportent comme si elles étaient un polariseur linéaire - mais que les deux verres sont polarisés dans le même sens, ce qui contredit le concept des lunettes polarisées linéairement
+  - Cependant elle n'ont pas cette propriété dans l'autre sens, et de plus, les couleurs changent !
 </div>
 
-Et pourtant, Michel n'est pas au bout de ses suprises. Comprenant qu'il n'a pas affaire à un simple polariseur linéaire, il décide de faire plus de tests. Il se balade chez lui avec ses lunettes, quand tout à coup, il remarque qu'il voit des couleurs bizarres lorsqu'il regarde son écran. C'est reparti pour une série de tests !
+Et pourtant, Michel n'est pas au bout de ses suprises. Comprenant qu'il n'a pas affaire à un simple polariseur linéaire, il décide de faire plus de tests. Il se balade chez lui avec ses lunettes, quand tout à coup, il remarque qu'il voit des couleurs bizarres lorsqu'il regarde son écran. C'est reparti pour une expérience !
 
 <div class="experience">
 
@@ -142,7 +149,9 @@ Ainsi, c'est toujours sur le même concept que reposent ces lunettes 3D: la sép
 Cela est bien intéressant, se dit Michel, mais ça n'explique pas mon expérience. Il s'intéresse donc à la composition d'un polariseur circulaire.
 
 
-Comme on peut le voir dans l'image précédente, un polariseur circulaire contient 2 composants: cela vérifie l'hypothèse émise lors de l'expérience #2. Le premier composant est un simple polariseur circulaire, est le deuxième est une lame un-quart, ou lame à quart d'onde. La fonction de cette lame est justement de déphaser la lumière polarisée. 
+Comme on peut le voir dans l'image précédente, un polariseur circulaire contient 2 composants: cela vérifie l'hypothèse émise lors de l'expérience #2. Le premier composant est un simple polariseur circulaire, est le deuxième est une lame un-quart, ou lame à quart d'onde. La fonction de cette lame est justement de déphaser la lumière polarisée, comme son nom l'indique, d'un quart d'une longeur d'onde (pi/2).
+
+
 
 <a href="{{ '/chap3' | prepend: site.baseurl | prepend: site.url }}">Suite ...</a>
 
