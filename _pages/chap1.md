@@ -20,7 +20,7 @@ Puisqu’il peut, Michel essaye donc de reproduire cet effet. Ne sachant pas com
 
 ![Anaglyphe problème](assets/img/anaglyphe-decale.png)
 
-<div class="caption">On remarque que l'image bleue et l'image rouge au premier plan sont non seulement décalées latéralement, mais aussi qu'elles ont une rotation différente - ce qui est impossible avec notre vision binoculaire !</div>
+<div class="caption">On remarque que l'image bleue et l'image rouge au premier plan sont non seulement décalées latéralement, mais aussi qu'elles ont une rotation différente - cela est bien sûr </div>
 
 Curieux, Michel décide de jouer avec ses projecteurs et de voir à quel point est-ce que le cerveau ne parvient plus à faire le lien entre ces deux images. Il invite quelques voisins pour avoir un échantillon plus varié.
 
