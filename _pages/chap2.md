@@ -138,20 +138,34 @@ La lumière polarisée circulairement, est simplement le résultat d' un **déph
 
 <div class="caption">Par exemple, ici, on remarque que les ondes bleues et vertes ne sont plus synchronisées en haut alors qu'elles le sont en bas: c'est ici la différence entre la lumière polarisée linéairement et circulairement</div>
 
+![Animation](assets/img/polarisation-circulaire-mouvement.gif)
+
+<div class="caption">Ici, la "coupe" (à droite) des composants nous donne deux vecteurs: le bleu et le vert, qui en s'additionnant, donnent le vecteur noir; cela illustre la raison pour laquelle on nomme cela la polarisation circulaire</div>
+
 Et le plus intéressant, c'est qu'en fonction de ce déphasage, on peut obtenir de la lumière polarisée circulairement dans le sens des aiguilles d'une montre, ou dans le sens inverse. Et on peut filtrer l'une des deux: c'est ainsi que marchent les lunettes polarisées circulairement.
 
-![Lunettes polarisées circulairement](assets/img/polarisation-circulaire-lunettes.png)
-
-<div class="caption">Ici, on observe que la lumière polarisée circulairement dans un sens passe dans l'oeil gauche, mais pas dans l'oeil droit, et vice-versa</div>
-
-Ainsi, c'est toujours sur le même concept que reposent ces lunettes 3D: la séparation d'une image en deux. Cependant, c'est la technique de séparation qui diffère. Et l'avantage qu'offre la polarisation circulaire, c'est que contrairement à la polarisation linéaire, lorsqu'on tourne la tête au cinéma, l'image reste nette - si l'on fait cela avec des lunettes polarisées linéairement, les images se mélangeront !
+Ainsi, c'est toujours sur le même concept que reposent ces lunettes 3D: la séparation d'une image en deux. Cependant, c'est la technique de séparation qui diffère. Et l'avantage qu'offre la polarisation circulaire, c'est que contrairement à la polarisation linéaire, lorsqu'on tourne la tête au cinéma, l'image reste nette - si l'on fait cela avec des lunettes polarisées linéairement, les images se mélangeront, car les filtres des lunettes ne seront plus alignés avec l'image polarisée de l'écran.
 
 Cela est bien intéressant, se dit Michel, mais ça n'explique pas mon expérience. Il s'intéresse donc à la composition d'un polariseur circulaire.
 
 
-Comme on peut le voir dans l'image précédente, un polariseur circulaire contient 2 composants: cela vérifie l'hypothèse émise lors de l'expérience #2. Le premier composant est un simple polariseur circulaire, est le deuxième est une lame un-quart, ou lame à quart d'onde. La fonction de cette lame est justement de déphaser la lumière polarisée, comme son nom l'indique, d'un quart d'une longeur d'onde (pi/2).
+Comme on peut le voir dans l'image précédente, un polariseur circulaire contient 2 composants: cela vérifie l'hypothèse émise lors de l'expérience #2. Le premier composant est un simple **polariseur linéaire**, est le deuxième est une **lame un-quart**, ou lame à quart d'onde. La fonction de cette lame est justement de déphaser la lumière polarisée, comme son nom l'indique, d'un quart d'une longeur d'onde (pi/2) - ce convertit de la lumière polarisée linéairement en lumière polarisée circulairement, et vice-versa.
 
+![Lame quart-d'onde](assets/img/polarisation-circulaire-static.gif)
 
+<div class="caption">Fonctionnement d'une lame quart-d'onde</div>
+
+Lorsque la lame quart d'onde reçoit de la lumière polarisée circulairement, elle la reconvertit en lumière polarisée linéairement. Et en fonction du sens de rotation de la lumière polarisée circulairement d'origine, le résultat va être polarisé linéairement avec un angle différent.
+
+![Lunettes polarisées circulairement](assets/img/polarisation-circulaire-lunettes.png)
+
+<div class="caption">Le premier composant est une lame quart-d'onde, le deuxième un polariseur linéaire. Ici, on observe que la lumière polarisée circulairement dans un sens passe dans l'oeil gauche, mais pas dans l'oeil droit, et vice-versa</div>
+
+Michel peut maintenant, grâce à ces explications, expliquer ses résultats. Tout d'abord, lorsqu'il regarde des objets, ou juste le ciel, il ne voit pas de différent car cette lumière est non-polarisée. Lorsque cependant on fait passer de la lumière polarisée, tout change. Si on fait passer la lumière dans le polariseur linéaire d'abord, alors la lame quart d'onde n'aura pas d'effet: c'est donc le comportement que l'on observe lorsque les lunettes sont face au mur dans l'expérience #2. Et dans l'autre sens, c'est de la lumière polarisée circulairement que l'on voit sur le mur - pour le vérifier, Michel aurait pu utiliser une lame quart d'onde.
+
+Pour les écrans, une partie de l'explication est dans le fonctionnement des écrans LCD. L'expliquer serait tout un autre sujet, mais il faut retenir que la polarisation entre en jeu, et que la lumière que l'on reçoit d'un écran est polarisée linéairement. C'est pour cela qu'on observe le même comportement dans les expériences #2 et #3.
+
+Mais alors, comment expliquer les couleurs ? C'est en fait à cause de la lame quart d'onde, qui a comme effet secondaire de laisser passer un peu plus de certaines longueurs d'ondes. Cet effet est grandement accentué dans l'expérience #3, car en plus de cela, les écrans LCD polarisent certaines couleurs plus que d'autres. La dernière photo de cette expérience suppose que l'écran de ce Mac polarise la lumière jaune circulairement dans un sens, et la lumière bleue dans l'autre. Pour comprendre cela, il faudrait s'intéresser au fonctionnement de ces écrans, mais c'est toute une autre histoire ... Michel s'arrête donc là en terme de polarisation.
 
 <a href="{{ '/chap3' | prepend: site.baseurl | prepend: site.url }}">Suite ...</a>
 
